@@ -1,17 +1,17 @@
 [
     {
-        "Brand": "Ray-Ban",
-        "Product_Name": "Ray-BanRB7047",
+        "Brand": "Oakley",
+        "Product_Name": "OakleyBarrelhouse",
         "Former_Price": null,
-        "Current_Price": "$176",
-        "Discount": ""
+        "Current_Price": 255.0,
+        "Discount": null
     },
     {
         "Brand": "Oakley",
-        "Product_Name": "OakleyPlank 2.0",
+        "Product_Name": "OakleySocket 5.5",
         "Former_Price": null,
-        "Current_Price": "$187",
-        "Discount": ""
+        "Current_Price": 227.0,
+        "Discount": null
     },
     {
         "Brand": null,
@@ -22,156 +22,156 @@
     },
     {
         "Brand": "Oakley",
-        "Product_Name": "OakleySocket 5.5",
-        "Former_Price": "",
-        "Current_Price": "$227",
-        "Discount": ""
-    },
-    {
-        "Brand": "Oakley",
         "Product_Name": "OakleyHolbrook RX",
-        "Former_Price": "",
-        "Current_Price": "$187",
-        "Discount": ""
+        "Former_Price": null,
+        "Current_Price": 187.0,
+        "Discount": null
     },
     {
         "Brand": "Oakley",
-        "Product_Name": "OakleyWheel House",
+        "Product_Name": "OakleyEnigma Mass",
         "Former_Price": null,
-        "Current_Price": "$242",
-        "Discount": ""
+        "Current_Price": 255.0,
+        "Discount": null
     },
     {
         "Brand": "Ray-Ban",
-        "Product_Name": "Ray-BanRB8908",
-        "Former_Price": null,
-        "Current_Price": "$276",
-        "Discount": ""
-    },
-    {
-        "Brand": "Ray-Ban",
-        "Product_Name": "Ray-BanRB7229",
-        "Former_Price": "$222",
-        "Current_Price": "$155.40",
+        "Product_Name": "Ray-BanRB6348D",
+        "Former_Price": 182.0,
+        "Current_Price": 127.4,
         "Discount": "30% Off"
     },
     {
-        "Brand": "Oakley",
-        "Product_Name": "OakleyPitchman R Carbon - Alternate Fit",
-        "Former_Price": null,
-        "Current_Price": "$297",
-        "Discount": ""
+        "Brand": "Ray-Ban",
+        "Product_Name": "Ray-BanRB3925V",
+        "Former_Price": 222.0,
+        "Current_Price": 155.4,
+        "Discount": "30% Off"
     },
     {
         "Brand": "Ray-Ban",
-        "Product_Name": "Ray-BanRB6645",
+        "Product_Name": "Ray-BanRB5446",
         "Former_Price": null,
-        "Current_Price": "$210",
-        "Discount": ""
+        "Current_Price": 186.0,
+        "Discount": null
     },
     {
         "Brand": "Ray-Ban",
-        "Product_Name": "Ray-BanRB7260",
+        "Product_Name": "Ray-BanRB8780D",
         "Former_Price": null,
-        "Current_Price": "$210",
-        "Discount": ""
+        "Current_Price": 276.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "Ray-BanRB7017",
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
     },
     {
         "Brand": "Ray-Ban",
         "Product_Name": "Ray-BanRB5154 Clubmaster",
-        "Former_Price": "",
-        "Current_Price": "$222",
-        "Discount": ""
+        "Former_Price": null,
+        "Current_Price": 222.0,
+        "Discount": null
     },
     {
         "Brand": "Persol",
-        "Product_Name": "PersolPO3189V",
-        "Former_Price": "$342",
-        "Current_Price": "$171",
-        "Discount": "50% Off"
-    },
-    {
-        "Brand": "Burberry",
-        "Product_Name": "BurberryBE2315",
-        "Former_Price": "$266",
-        "Current_Price": "$133",
-        "Discount": "50% Off"
-    },
-    {
-        "Brand": "Persol",
-        "Product_Name": "PersolPO3297V",
-        "Former_Price": "",
-        "Current_Price": "$342",
-        "Discount": ""
+        "Product_Name": "PersolPO3263V",
+        "Former_Price": null,
+        "Current_Price": 363.0,
+        "Discount": null
     },
     {
         "Brand": "Versace",
         "Product_Name": "VersaceVE1285",
-        "Former_Price": "$300",
-        "Current_Price": "$210",
+        "Former_Price": 300.0,
+        "Current_Price": 210.0,
         "Discount": "30% Off"
     },
     {
         "Brand": "Gucci",
         "Product_Name": "GucciGG1340O",
-        "Former_Price": "$305",
-        "Current_Price": "$259.25",
+        "Former_Price": 305.0,
+        "Current_Price": 259.25,
         "Discount": "15% Off"
-    },
-    {
-        "Brand": "Gucci",
-        "Product_Name": "GucciGG1221O",
-        "Former_Price": "$605",
-        "Current_Price": "$514.25",
-        "Discount": "15% Off"
-    },
-    {
-        "Brand": "Kate Spade",
-        "Product_Name": "Kate SpadeCharlee",
-        "Former_Price": "$245",
-        "Current_Price": "$171.50",
-        "Discount": "30% Off"
     },
     {
         "Brand": "Kate Spade",
         "Product_Name": "Kate SpadeLucyann",
-        "Former_Price": "$230",
-        "Current_Price": "$161",
+        "Former_Price": 230.0,
+        "Current_Price": 161.0,
         "Discount": "30% Off"
     },
     {
         "Brand": "Burberry",
-        "Product_Name": "BurberryBE2417",
-        "Former_Price": "$327",
-        "Current_Price": "$228.90",
+        "Product_Name": "BurberryBE2420",
+        "Former_Price": 421.0,
+        "Current_Price": 294.7,
         "Discount": "30% Off"
     },
     {
         "Brand": "Dolce & Gabbana",
         "Product_Name": "Dolce & GabbanaDG3415",
-        "Former_Price": "$335",
-        "Current_Price": "$234.50",
+        "Former_Price": 335.0,
+        "Current_Price": 234.5,
         "Discount": "30% Off"
     },
     {
         "Brand": "Versace",
-        "Product_Name": "VersaceVE3373U",
-        "Former_Price": "$316",
-        "Current_Price": "$221.20",
+        "Product_Name": "VersaceVE1175B",
+        "Former_Price": 316.0,
+        "Current_Price": 221.2,
+        "Discount": "30% Off"
+    },
+    {
+        "Brand": "Coach",
+        "Product_Name": "CoachHC6065",
+        "Former_Price": 255.0,
+        "Current_Price": 178.5,
+        "Discount": "30% Off"
+    },
+    {
+        "Brand": "Giorgio Armani",
+        "Product_Name": "Giorgio ArmaniAR7202",
+        "Former_Price": 545.0,
+        "Current_Price": 381.5,
         "Discount": "30% Off"
     },
     {
         "Brand": "RALPH by Ralph Lauren",
         "Product_Name": "RALPH by Ralph LaurenRA7158U",
-        "Former_Price": "$141",
-        "Current_Price": "$98.70",
+        "Former_Price": 141.0,
+        "Current_Price": 98.7,
         "Discount": "30% Off"
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "Ray-BanRB7047",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
     },
     {
         "Brand": "Ray-Ban",
         "Product_Name": "Ray-BanRB7140",
         "Former_Price": null,
-        "Current_Price": "$237",
-        "Discount": ""
+        "Current_Price": 237.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "Ray-BanRB6335",
+        "Former_Price": null,
+        "Current_Price": 210.0,
+        "Discount": null
+    },
+    {
+        "Brand": "Ray-Ban",
+        "Product_Name": "Ray-BanRB5268",
+        "Former_Price": null,
+        "Current_Price": 176.0,
+        "Discount": null
     }
 ]

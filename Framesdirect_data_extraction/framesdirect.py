@@ -1,6 +1,7 @@
 # Libraries Used
 import csv
 import json
+import re
 import requests
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -16,10 +17,15 @@ url = "https://www.framesdirect.com/eyeglasses/"
 r = requests.get(url)
 print(r)
 
-def clean_price(price_text):
-    if price_text:
-        return price_text.replace("$", "").strip()
-    return None
+#  Function to clean price strings
+def clean_price(price_str):
+    if not price_str:
+        return None
+    cleaned = re.sub(r"[^\d.]", "", price_str)  # remove $ or other characters
+    try:
+        return float(cleaned)
+    except ValueError:
+        return None
 
 # Step 1 - Setup Selenium + WebDriver
 print("Setting up webdriver...")
@@ -81,16 +87,20 @@ for card in product_cards:
 
     # Former price
     former_price = card.find("div", class_="prod-catalog-retail-price")
-    former_price = former_price.text.strip() if former_price else None
+    former_price = clean_price(former_price.text.strip()) if former_price else None
 
     # Current price
     current_price = card.find("div", class_="prod-aslowas")
-    current_price = current_price.text.strip() if current_price else None
+    current_price = clean_price(current_price.text.strip()) if current_price else None
 
-    # Discount
-    discount = card.find("div", class_="frame-discount")
-    discount = discount.text.strip() if discount else None
-
+    # Discount: make sure empty / missing -> None (so json.dump becomes null)
+    discount_tag = card.find("div", class_="frame-discount")
+    if discount_tag:
+        disc_text = discount_tag.get_text(strip=True)
+        discount = disc_text if disc_text != "" else None
+    else:
+        discount = None
+    
     frames_data.append({
         "Brand": brand,
         "Product_Name": product_name,
